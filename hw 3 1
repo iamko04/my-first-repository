@@ -1,0 +1,20 @@
+amc = 2000
+cfl = 3000
+cfc = 3500
+
+a = int(input("아메리카노 판매 개수 입력 : "))
+l = int(input("카페라떼 판매 개수 입력 : "))
+c = int(input("카푸치노 판매 개수 입력 : "))
+
+print("========== 메뉴 ==========")
+print("아메리카노 :", amc)
+print("카페라떼 :", cfl)
+print("카푸치노 :", cfc)
+print("==============================")
+print("아메리카노 판매 개수 입력 : ", a)
+print("카페라떼 판매 개수 입력 : ", l)
+print("카푸치노 판매 개수 입력 : ", c)
+
+total = a*amc + l*cfl + c*cfc
+
+print("총 매출은 ", total, "입니다")
